@@ -1,0 +1,48 @@
+{
+  "name": "MOMO 英语岛",
+  "short_name": "英语岛",
+  "description": "为英语初学者设计的音标、分级词汇、基础语法与生活口语学习应用。",
+  "lang": "zh-CN",
+  "start_url": "./index.html?source=pwa",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": ["standalone", "minimal-ui"],
+  "orientation": "portrait",
+  "background_color": "#f6fbfa",
+  "theme_color": "#173b4d",
+  "categories": ["education", "productivity"],
+  "icons": [
+    {
+      "src": "assets/icon-180.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "assets/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "背单词",
+      "short_name": "单词",
+      "url": "./index.html?open=words",
+      "icons": [{ "src": "assets/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "练音标",
+      "short_name": "音标",
+      "url": "./index.html?open=phonics",
+      "icons": [{ "src": "assets/icon-192.png", "sizes": "192x192" }]
+    }
+  ]
+}
